@@ -1,0 +1,29 @@
+.toast-appear {
+    transform: translateY(100%);
+  }
+  
+  .toast-enter {
+    transform: translateY(100%);
+  }
+  
+  .toast-enter-active {
+    transform: translateY(0);
+    transition: transform 300ms;
+  }
+  
+  .toast-exit {
+    transform: translateY(0);
+  }
+  
+  .toast-exit-active {
+    transform: translateY(100%);
+    transition: transform 300ms;
+  }
+  
+  .submission-list-item {
+    transition: background-color 0.3s ease;
+  }
+  
+  .submission-list-item:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+  }
